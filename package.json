@@ -9,6 +9,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "server": "node server/index.js",
+     "test": "vitest run",
     "dev:full": "concurrently \"npm run dev\" \"npm run server\""
   },
   "dependencies": {
